@@ -1,12 +1,12 @@
 # Laravel specific
-/vendor
-/node_modules
-/public/storage
-/storage/*.key
-/.env
-Homestead.yaml
-Homestead.json
-/.vagrant
+/app//vendor
+/app//node_modules
+/app//public/storage
+/app//storage/*.key
+/app/.env
+/app/Homestead.yaml
+/app/Homestead.json
+/app//.vagrant
 
 # Laravel 5 & Lumen specific
 .env.testing
