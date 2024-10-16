@@ -1,0 +1,27 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# Laravel 5 & Lumen specific
+.env.testing
+
+# Docker specific
+docker-compose.override.yml
+.env.docker
+docker-compose/mysql
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.idea
+*.sublime-project
+*.sublime-workspace
+.vscode
