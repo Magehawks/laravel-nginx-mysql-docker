@@ -22,7 +22,8 @@
                         <p>Bitte geben Sie einen RSS Feed an, um die Artikel anzuzeigen.
                             <ul>
                                 <li>Beispiel: https://www.tagesschau.de/xml/rss2</li>
-                                <li>Beispiel: https://www.heise.de/newsticker/heise-atom.xml</li>
+                                <li>Beispiel: https://www.heise.de/rss/heise-Rubrik-IT.rdf</li>
+                                <li>Beispiel: https://www.spiegel.de/schlagzeilen/tops/index.rss</li>
                             </ul>
                         </p>
                         <form action="{{ route('fetch.articles') }}" method="POST">
